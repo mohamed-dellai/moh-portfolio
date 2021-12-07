@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1d37b8fb.chunk.css",
+    "main.js": "/static/js/main.0afe5f2c.chunk.js",
+    "main.js.map": "/static/js/main.0afe5f2c.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a975f3c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a975f3c4.js.map",
+    "static/js/2.81ce1538.chunk.js": "/static/js/2.81ce1538.chunk.js",
+    "static/js/2.81ce1538.chunk.js.map": "/static/js/2.81ce1538.chunk.js.map",
+    "static/js/3.ac0cd9af.chunk.js": "/static/js/3.ac0cd9af.chunk.js",
+    "static/js/3.ac0cd9af.chunk.js.map": "/static/js/3.ac0cd9af.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.1d37b8fb.chunk.css.map": "/static/css/main.1d37b8fb.chunk.css.map",
+    "static/js/2.81ce1538.chunk.js.LICENSE.txt": "/static/js/2.81ce1538.chunk.js.LICENSE.txt",
+    "static/media/calc.3cf0b435.png": "/static/media/calc.3cf0b435.png",
+    "static/media/drumMachine.f9f1823c.png": "/static/media/drumMachine.f9f1823c.png",
+    "static/media/pngaaa.com-203174.df6c53fb.png": "/static/media/pngaaa.com-203174.df6c53fb.png",
+    "static/media/quote.226c979b.png": "/static/media/quote.226c979b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a975f3c4.js",
+    "static/js/2.81ce1538.chunk.js",
+    "static/css/main.1d37b8fb.chunk.css",
+    "static/js/main.0afe5f2c.chunk.js"
+  ]
+}
