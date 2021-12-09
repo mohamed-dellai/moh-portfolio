@@ -15,21 +15,21 @@ export function Skills() {
          <div className='profile-skills'>
             <div className='profile'>
              <h3>PROFILE</h3>
-             <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
+             <p>Hi! I'm Mohamed Dellai a computer science student and a web developer I'm 19 years old and I'm willing to be the best of the best 😉.</p>
              <h3>FULLNAME:</h3>
              <p>Mohamed Dellai</p>
              <h3>BIRTH DATE:</h3>
              <p>June 07,2002</p>
              <h3>JOB:</h3>
-             <p>Full Stack Developer</p>
+             <p>Front End Devolopper(for now)</p>
              <h3>WEBSITE:</h3>
-             <p>NotReady.com</p>
+             <p>moh-portfolio.netlify.app</p>
              <h3>EMAIL:</h3>
              <p>mohameddellai6@gmail.com</p>
             </div>
             <div className='skill'>
               <h3>SKILLS</h3>
-              <p>Lorem ipsum Qui veniam ut consequat ex ullamco nulla in non ut esse in magna sint minim officia consectetur nisi commodo ea magna pariatur nisi cillum.</p>
+              <p>I'm conftable using react , css and javascript I built some projects to demonstrate my knwoldge , check them out </p>
               <h4>HTML5</h4>
               <div className="progress">
                  <div className="progress-bar" role="progressbar" style={{width: '80%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">80%</div>
@@ -57,8 +57,8 @@ export function Skills() {
             </div>
          </div>
          <div className='skills-button'>
-            <button className='hire'>Hire Me</button>
-            <button className='CV'>Download CV</button>
+            <a clasName='hire' href='#footer'><button className='hire' >Hire Me</button></a>
+            <button className='CV' >Download CV</button>
          </div>
       </div>
     );

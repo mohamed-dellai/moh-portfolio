@@ -36,7 +36,7 @@ nav{
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-a{
+.link{
   font-size: 2rem;
   color: white;
   text-decoration: none;
@@ -45,7 +45,7 @@ a{
   font-weight: 600;
   transition: all 350ms ease-in-out;
 }
-a:hover{
+.link:hover{
   transform: translateY(-10px);
   font-size: 2rem;
    color: white;
@@ -587,8 +587,19 @@ footer button{
   align-items: center;
   justify-content: center;
   transition: all 500ms ease-out;
+  font-size: 2rem;
+
+}
+#fixed a{
+  color: white;
+  transition: all 500ms ease-out;
+}
+#fixed:hover a{
+  transform: translateY(-10px);
   
 }
+
 #fixed:hover{
   background-color: black;
 }
+

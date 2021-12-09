@@ -36,7 +36,7 @@ export function Projects() {
     <img src={drumMachine} alt='test'></img>
     <h3>Drum Machine</h3>
     <p>Created with reactJs , Bootstrap , CSS , Js from scratch. It contain volume control and the note that you made , I created this project to master usestae hook , combining useEffect with eventlisiner and using javascript to manipulate audio files</p>
-    <button><a href='https://laughing-fermi-553166.netlify.app'>Visit</a></button>
+    <button>Visit</button>
     <button onClick={()=>{setProj2(!proj2); }}>Close</button>
     </div>
 

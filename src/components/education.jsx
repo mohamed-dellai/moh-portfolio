@@ -26,7 +26,7 @@ export function Education() {
                    <h3>Computer science student</h3>
                    <img src='https://icon-library.com/images/graduation-icon-png/graduation-icon-png-1.jpg' width='40px' alt='graduation icon' className='image'></img>
                    <p style={{marginTop: '-17px'}}>2021 - Present</p>
-                   <p>Im currently studying computer science in Higher Institute of Arts and Multimedia Manouba and its my first.</p>
+                   <p>Im currently studying computer science in Higher Institute of Arts and Multimedia Manouba and its my first year. I'm doing my best to do well in college in the same time I'm learning more about web devolement and I'm currently learning redux and nodeJs</p>
                    
                  </div>
              </div>
