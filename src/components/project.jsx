@@ -35,8 +35,8 @@ export function Projects() {
     <div className='sub-section'>
     <img src={drumMachine} alt='test'></img>
     <h3>Drum Machine</h3>
-    <p>Created with reactJs , Bootstrap , CSS , Js from scratch. It contain volume control and the note that ypu made </p>
-    <button>Visit</button>
+    <p>Created with reactJs , Bootstrap , CSS , Js from scratch. It contain volume control and the note that you made , I created this project to master usestae hook , combining useEffect with eventlisiner and using javascript to manipulate audio files</p>
+    <button><a href='https://laughing-fermi-553166.netlify.app'>Visit</a></button>
     <button onClick={()=>{setProj2(!proj2); }}>Close</button>
     </div>
 
@@ -46,7 +46,7 @@ const onclick1=
     <div className='sub-section'>
     <img src={calc} alt='test'></img>
     <h3>Simple calculator</h3>
-    <p>Created with reactJs , Bootstrap , CSS , Js from scratch. It contain volume control and the note that ypu made </p>
+    <p>Created with reactJs , Bootstrap , CSS , Js . It is my first project I build it to learn css grid area , usesState hook , bootstrap buttons and input controll using js </p>
     <button>Visit</button>
     <button onClick={()=>{setProj(!proj); }}>Close</button>
     </div>
@@ -57,7 +57,7 @@ const onclick3=
     <div className='sub-section'>
     <img src={quote} alt='test'></img>
     <h3>Ranndom quote machine</h3>
-    <p>Created with reactJs , Bootstrap , CSS , Js from scratch. It contain volume control and the note that ypu made </p>
+    <p>Created with reactJs , Bootstrap , CSS . created to learn making multiple and complex animation ("changing data while animating") using react-spring library also this project simulate fetching and using data from an api </p>
     <button>Visit</button>
     <button onClick={()=>{setProj3(!proj3); }}>Close</button>
     </div>
@@ -77,17 +77,17 @@ const onclick3=
         <div className='projects2'>
           <div className="photos">
               <img src={calc} alt='project 1'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Simple calculator .</p>
             <button className='CV test' style={{height: "40px"}} onClick={()=>{setProj(!proj); }}>See More</button>
           </div>
           <div className="photos">
             <img src={drumMachine} alt="project 2"/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Drum Machine.</p>
             <button className='CV test' style={{height: "40px"}}   onClick={()=>{setProj2(!proj2); }}>See More</button>
           </div>
           <div className="photos">
             <img src={quote} alt='project 3'/>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>Random qutote Machine.</p>
             <button className='CV test' style={{height: "40px"}} onClick={()=>{setProj3(!proj3); }}>See More</button>
           </div>
         </div>
