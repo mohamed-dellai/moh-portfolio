@@ -5,7 +5,7 @@ export function Education() {
           <div className='head'>
               <h2>Resume</h2>
               <h1>More of my credentials.</h1>
-              <p>Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+              <p>Im quite motivated to learn more tecknologies and skills and Im hard worker who have a lot of energy and im really exited to get my first job</p>
           </div>
           <h3 style={{color: '#FF0077',fontWeight: 600,fontSize: '1.5rem',marginTop: '50px'}}> Education</h3>
              <div className='degreetitle'>
