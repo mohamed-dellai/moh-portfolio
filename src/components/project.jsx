@@ -35,8 +35,8 @@ export function Projects() {
     <div className='sub-section'>
     <img src={drumMachine} alt='test'></img>
     <h3>Drum Machine</h3>
-    <p>Created with reactJs , Bootstrap , CSS , Js from scratch. It contain volume control and the note that you made , I created this project to master usestae hook , combining useEffect with eventlisiner and using javascript to manipulate audio files</p>
-    <button>Visit</button>
+    <p>Created with reactJs , Bootstrap , CSS , Js from scratch. It contain volume control and the note that you made , I created this project to master usestae hook , combining useEffect with event listener and using javascript to manipulate audio files</p>
+    <button><a href="https://messenger-app-demo-test.netlify.app/">Visit</a></button>
     <button onClick={()=>{setProj2(!proj2); }}>Close</button>
     </div>
 
@@ -45,8 +45,8 @@ const onclick1=
     
     <div className='sub-section'>
     <img src={calc} alt='test'></img>
-    <h3>Simple calculator</h3>
-    <p>Created with reactJs , Bootstrap , CSS , Js . It is my first project I build it to learn css grid area , usesState hook , bootstrap buttons and input controll using js </p>
+    <h3>Messenger App</h3>
+    <p>Created with reactJs , CSS , Js , you can login using testing for name and test for password or Mohamed Dellai for name and test123 for password , messages are saved in local storage , user informations is saved in an other file.</p>
     <button>Visit</button>
     <button onClick={()=>{setProj(!proj); }}>Close</button>
     </div>
@@ -77,7 +77,7 @@ const onclick3=
         <div className='projects2'>
           <div className="photos">
               <img src={calc} alt='project 1'/>
-            <p>Simple calculator .</p>
+            <p>Messenger App .</p>
             <button className='CV test' style={{height: "40px"}} onClick={()=>{setProj(!proj); }}>See More</button>
           </div>
           <div className="photos">

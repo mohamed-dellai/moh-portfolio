@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     
     
-    var intervalId = window.setInterval(function(){
+    var intervalId = window.setInterval(() => {
       setScroll(window.pageYOffset);
       if(scroll>250)
       setVisible(true);
@@ -34,7 +34,7 @@ function App() {
     }
   })
 
-   console.log(scroll) 
+   
      
     
     
