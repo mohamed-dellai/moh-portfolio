@@ -36,7 +36,7 @@ export function Projects() {
     <img src={drumMachine} alt='test'></img>
     <h3>Drum Machine</h3>
     <p>Created with reactJs , Bootstrap , CSS , Js from scratch. It contain volume control and the note that you made , I created this project to master usestae hook , combining useEffect with event listener and using javascript to manipulate audio files</p>
-    <button><a href="https://messenger-app-demo-test.netlify.app/">Visit</a></button>
+    <button><a href="https://drum-machine-1.netlify.app/">Visit</a></button>
     <button onClick={()=>{setProj2(!proj2); }}>Close</button>
     </div>
 
@@ -47,7 +47,7 @@ const onclick1=
     <img src={calc} alt='test'></img>
     <h3>Messenger App</h3>
     <p>Created with reactJs , CSS , Js , you can login using testing for name and test for password or Mohamed Dellai for name and test123 for password , messages are saved in local storage , user informations is saved in an other file.</p>
-    <button>Visit</button>
+    <button><a href="https://messenger-app-demo-test.netlify.app/">Visit</a></button>
     <button onClick={()=>{setProj(!proj); }}>Close</button>
     </div>
 
