@@ -58,7 +58,7 @@ const onclick3=
     <img src={quote} alt='test'></img>
     <h3>Ranndom quote machine</h3>
     <p>Created with reactJs , Bootstrap , CSS . created to learn making multiple and complex animation ("changing data while animating") using react-spring library also this project simulate fetching and using data from an api </p>
-    <button>Visit</button>
+    <button onClick={()=>{document.getElementById("random").click()}}>Visit</button>
     <button onClick={()=>{setProj3(!proj3); }}>Close</button>
     </div>
 
@@ -74,9 +74,9 @@ const onclick3=
 
 
 
-             <a id='messenger' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://messenger-app-demo-test.netlify.app/">a</a>
+             <a id='random' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://randomquotemachine123.netlify.app/">a</a>
              <a id='drum' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://drum-machine-1.netlify.app/">a</a>
-             <a id='messenger' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://messenger-app-demo-test.netlify.app/">a</a>
+             <a id='messenger' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://stoic-poitras-1977c9.netlify.app/">a</a>
 
 
 
