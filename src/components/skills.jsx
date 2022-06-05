@@ -46,19 +46,19 @@ export function Skills() {
                <div className="progress">
                  <div className="progress-bar" role="progressbar" style={{width: '70%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">70%</div>
                </div>
+               <h4>SQL</h4>
+               <div className="progress">
+                 <div className="progress-bar" role="progressbar" style={{width: '70%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">65%</div>
+               </div>
                <h4>Bootstrap 4</h4>
                <div className="progress">
-                 <div className="progress-bar" role="progressbar" style={{width: '65%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">65%</div>
-               </div>
-               <h4>Jquery</h4>
-               <div className="progress">
-                 <div className="progress-bar" role="progressbar" style={{width: '50%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">50%</div>
+                 <div className="progress-bar" role="progressbar" style={{width: '65%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">50%</div>
                </div>
             </div>
          </div>
          <div className='skills-button'>
             <a clasName='hire' href='#footer'><button className='hire' >Hire Me</button></a>
-            <button className='CV' >Download CV</button>
+            <a className='CV' download href='cv.pdf' ><button className='CV' >Download CV</button></a> 
          </div>
       </div>
     );
