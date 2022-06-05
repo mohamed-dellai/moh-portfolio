@@ -58,7 +58,7 @@ export function Skills() {
          </div>
          <div className='skills-button'>
             <a clasName='hire' href='#footer'><button className='hire' >Hire Me</button></a>
-            <a className='CV' download href='cv.pdf' ><button className='CV' >Download CV</button></a> 
+            <a className='CV' download="CV" href='cv.pdf' ><button className='CV' >Download CV</button></a> 
          </div>
       </div>
     );
