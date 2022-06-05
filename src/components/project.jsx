@@ -35,7 +35,7 @@ export function Projects() {
     <div className='sub-section'>
     <img src={drumMachine} alt='test'></img>
     <h3>Drum Machine</h3>
-    <p>Created with reactJs , Bootstrap , CSS , Js from scratch. It contain volume control and the note that you made , I created this project to master usestae hook , combining useEffect with event listener and using javascript to manipulate audio files</p>
+    <p>Created from scratch utilizing reactJs, Bootstrap, CSS, and Js. It includes volume control and the note you produced. I constructed this project to learn how to utilize the usestae hook, combining useEffect with an event listener and utilizing javascript to modify audio files.</p>
     <button onClick={()=>{document.getElementById("drum").click()}}>Visit</button>
     <button onClick={()=>{setProj2(!proj2); }}>Close</button>
     </div>
@@ -46,7 +46,7 @@ const onclick1=
     <div className='sub-section'>
     <img src={calc} alt='test'></img>
     <h3>Messenger App</h3>
-    <p>Created with reactJs , CSS , Js , you can login using testing for name and test for password or Mohamed Dellai for name and test123 for password , messages are saved in local storage , user informations is saved in an other file.</p>
+    <p>Created using reactJs, CSS, and Js, you may login with testing for your name and test123 for your password, messages are kept in local storage, and user information is saved in another file.</p>
     <button onClick={()=>{document.getElementById("messenger").click()}}>Visit</button>
     <button onClick={()=>{setProj(!proj); }}>Close</button>
     </div>
@@ -57,7 +57,7 @@ const onclick3=
     <div className='sub-section'>
     <img src={quote} alt='test'></img>
     <h3>Ranndom quote machine</h3>
-    <p>Created with reactJs , Bootstrap , CSS . created to learn making multiple and complex animation ("changing data while animating") using react-spring library also this project simulate fetching and using data from an api </p>
+    <p>ReactJs, Bootstrap, and CSS were used to create this page. made to learn how to make various  animations using the react-spring library</p>
     <button onClick={()=>{document.getElementById("random").click()}}>Visit</button>
     <button onClick={()=>{setProj3(!proj3); }}>Close</button>
     </div>

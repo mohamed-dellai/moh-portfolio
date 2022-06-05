@@ -7,7 +7,7 @@ export function Skills() {
             <p>About</p>
             <h1>introduction.</h1>
               <div className='new'>
-               <h3>Firstly, Welcome to my portfolio , I hope you are having a good day and I hope you like my web site that I created with react and some bootstrap , it contain all informations you need  about me   , have fun 😊</h3>
+               <h3>Firstly, Welcome to my portfolio, I hope you are having a good day and that you like my website that I developed with react and some bootstrap, it contains all of the information you need about me, enjoy </h3>
                <img alt='img' src='https://media.istockphoto.com/vectors/successful-young-business-man-holding-a-laptop-and-showing-victory-v-vector-id1201496048'/>
              </div>
            </div>
@@ -15,7 +15,7 @@ export function Skills() {
          <div className='profile-skills'>
             <div className='profile'>
              <h3>PROFILE</h3>
-             <p> I'm Mohamed Dellai a computer science student and a web developer I'm 19 years old and I'm willing to be the best of the best 😉.</p>
+             <p> I'm Mohamed Dellai, a computer science student and web developer, 20 years old, and motivated to be the finest of the best. 😉.</p>
              <h3>FULLNAME:</h3>
              <p>Mohamed Dellai</p>
              <h3>BIRTH DATE:</h3>
@@ -29,7 +29,7 @@ export function Skills() {
             </div>
             <div className='skill'>
               <h3>SKILLS</h3>
-              <p>I'm conftable using react , css and javascript I built some projects to demonstrate my knwoldge , check them out </p>
+              <p>I'm familiar with react, CSS, and javascript. Check out my projects to see how I applied my knowledge. </p>
               <h4>HTML5</h4>
               <div className="progress">
                  <div className="progress-bar" role="progressbar" style={{width: '80%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">80%</div>
