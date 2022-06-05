@@ -7,7 +7,7 @@ export function Skills() {
             <p>About</p>
             <h1>introduction.</h1>
               <div className='new'>
-               <h3>Firstly, Welcome to my portfolio, I hope you are having a good day and that you like my website that I developed with react and some bootstrap, it contains all of the information you need about me, enjoy </h3>
+               <h3>Firstly, Welcome to my website, I hope you are having a good day and that you like my portfolio that I developed with react and some bootstrap, it contains all of the information you need about me, enjoy </h3>
                <img alt='img' src='https://media.istockphoto.com/vectors/successful-young-business-man-holding-a-laptop-and-showing-victory-v-vector-id1201496048'/>
              </div>
            </div>

@@ -10,6 +10,7 @@ export function Projects() {
     const [proj,setProj]=useState(()=>false);
     const [proj2,setProj2]=useState(()=>false);
     const [proj3,setProj3]=useState(()=>false);
+    const [proj4,setProj4]=useState(()=>false);
     
     const transition = useTransition(proj, {
         from:{top:x , opacity: 0 , left: -1000},
@@ -29,7 +30,12 @@ export function Projects() {
         leave:{top:x , opacity: 0 , left: -1000},
         config:{duration:500},
       });
-
+      const transition4 = useTransition(proj4, {
+        from:{top:x , opacity: 0 , left: -1000},
+        enter:{top:x , opacity: 1 , left: 0},
+        leave:{top:x , opacity: 0 , left: -1000},
+        config:{duration:500},
+      });
     const onclick2= 
     
     <div className='sub-section'>
@@ -51,6 +57,16 @@ const onclick1=
     <button onClick={()=>{setProj(!proj); }}>Close</button>
     </div>
 
+const onclick4= 
+    
+<div className='sub-section'>
+<img src={calc} alt='test'></img>
+<h3>Messenger App</h3>
+<p>Created using reactJs, CSS, and Js, you may login with testing for your name and test123 for your password, messages are kept in local storage, and user information is saved in another file.</p>
+<button onClick={()=>{document.getElementById("gestionnaire").click()}}>Visit</button>
+<button onClick={()=>{setProj(!proj4); }}>Close</button>
+</div>
+
 
 const onclick3=
     
@@ -71,12 +87,15 @@ const onclick3=
       )}
            {transition3((style,item)=> item ? <animated.div className='section' style={style}>{onclick3}</animated.div> : ''
       )} 
+      {transition4((style,item)=> item ? <animated.div className='section' style={style}>{onclick4}</animated.div> : ''
+      )} 
 
 
 
              <a id='random' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://randomquotemachine123.netlify.app/">a</a>
              <a id='drum' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://drum-machine-1.netlify.app/">a</a>
              <a id='messenger' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://stoic-poitras-1977c9.netlify.app/">a</a>
+             <a id='gestionnaire' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://dazzling-cuchufli-75e184.netlify.app/">a</a>
 
 
 
@@ -97,6 +116,11 @@ const onclick3=
             <img src={quote} alt='project 3'/>
             <p>Random qutote Machine.</p>
             <button className='CV test' style={{height: "40px"}} onClick={()=>{setProj3(!proj3); }}>See More</button>
+          </div>
+          <div className="photos">
+            <img src={quote} alt='project 3'/>
+            <p>Random qutote Machine.</p>
+            <button className='CV test' style={{height: "40px"}} onClick={()=>{setProj4(!proj4); }}>See More</button>
           </div>
         </div>
         </div>
