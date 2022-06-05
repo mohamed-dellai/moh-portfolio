@@ -58,7 +58,7 @@ export function Skills() {
          </div>
          <div className='skills-button'>
             <a clasName='hire' href='#footer'><button className='hire' >Hire Me</button></a>
-            <a className='CV' download="CV" href='cv.pdf' ><button className='CV' >Download CV</button></a> 
+            <a className='CV' download="CV" href='https://mail-attachment.googleusercontent.com/attachment/u/2/?ui=2&ik=dff93cfece&attid=0.1&permmsgid=msg-a:r-7166739891586379031&th=181341ec1fb688ae&view=att&disp=safe&realattid=f_l41cylnz0&saddbat=ANGjdJ94CdKgsjZTtzRhpsxl42RChU8GBZqWcsnytsSv5Hb1TlzsIlh7L3noFfmYNxqg3RquIU9u5_4TjLPJO4P4aqN2AJHpAEGfDH-jhnC16qtJT_7tqD6HXfew7NzrkG55lMRfczlhsdwwlevYIk076clwrQbPpwm6UY_4LSUCYYsxbGQRzHl6EXsnRVHvmtoOhnZFM5-yldvlfZ7Y-rLC4b_vqXV76HgwueLyRsVQ1z7UvzolHEcUQljRpuUPOoOXvo_GMxscA0IuYcOI9O-abDMX0M6ZlzZpi4l04I7loIp6GftWZWglaCQdAxUNqhIj1FpRjWrqPvBHX83l0M9gtMSsRl7zyTedzNZfgSYmgELMa953utp9I0T-LAL1vhB1w4w0AoLrFlgSDLMR-ZVTaddya7fEqc5aoookPId5Sjy4juGxmeZsFshrPWmxYzXCpae-NMhBKhDZ5dke3zmygjKY-LwTbL9zmsciGEUsB4VBAiYU3_RX9XaPb_StaoJFdlWQhh8aETSZQkAiB7-UbRaIrIKrEJQF53bxBQGa5OGHrEE-umX1Ao5kl_JjvJUBxV7njkHJD1HNzx4kV4Q1bPmmvkuitSMqAc7pKDMaiIPPF_hc9XJBe3oh3p_x_Sui9vGz11b4lMCSCAYo8J8yRGeEMdr9anWcG4_7v29ek3_wljhw2d09TgVcMha0oL2tH-ICdXQl5-sQ1VQWK2Jenl7U8YRkcvo9dV3VVQ7zTPd6ARbeRT60ThReoki83YontJPs0WGbCMsBFbNw1H0vZRf1s7B3UxqiVTO2NJoPJoFyYXmy-XpNLz198yaX42sx0updvwa7FsudBGWGsc5eC0NthVrG1UT_wmJbojCiKVuKWmpG8g-f-zi9Vy6MTzwGsf31zdDsXkiF2HyEsPe7NlkzZWO1T7Dzg5StrqoozT8FhFev8m0A9aT3l6xOgfe7qXiSp40MGdfyaZ55KTs_cl1dgWYyeFlq8yC9CG3zGa_MO41VM6mlp3D0mnQ_v0ehbXaUPmVQXmyTDWKWqBi9eo_UVe157LR41CFT3A' ><button className='CV' >Download CV</button></a> 
          </div>
       </div>
     );
