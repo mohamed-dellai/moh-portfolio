@@ -2,7 +2,7 @@ import React from 'react'
 import drumMachine from './drumMachine.png'
 import calc from './calc.png'
 import quote from './quote.png';
-import cap from './cap.png';
+import cap from './cap.PNG';
 import { useState } from 'react';
 import {animated,useTransition} from 'react-spring';
 export function Projects() {
