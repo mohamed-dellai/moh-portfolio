@@ -62,10 +62,10 @@ const onclick4=
     
 <div className='sub-section'>
 <img src={cap} alt='test'></img>
-<h3>Messenger App</h3>
-<p>Created using reactJs, CSS, and Js, you may login with testing for your name and test123 for your password, messages are kept in local storage, and user information is saved in another file.</p>
+<h3>Gestionnaire des bordereaux</h3>
+<p>It's a website for physiotherapists built using reactJs, CSS, and Js that can record patient information, automatically deliver session dates, compute total cost, and print invoices.</p>
 <button onClick={()=>{document.getElementById("gestionnaire").click()}}>Visit</button>
-<button onClick={()=>{setProj(!proj4); }}>Close</button>
+<button onClick={()=>{setProj4(!proj4); }}>Close</button>
 </div>
 
 
@@ -120,7 +120,7 @@ const onclick3=
           </div>
           <div className="photos">
             <img src={cap} alt='project 4'/>
-            <p>Random qutote Machine.</p>
+            <p>Gestionnaire des bordereaux.</p>
             <button className='CV test' style={{height: "40px"}} onClick={()=>{setProj4(!proj4); }}>See More</button>
           </div>
         </div>
