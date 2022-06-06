@@ -119,7 +119,7 @@ const onclick3=
             <button className='CV test' style={{height: "40px"}} onClick={()=>{setProj3(!proj3); }}>See More</button>
           </div>
           <div className="photos">
-            <img src={quote} alt='project 4'/>
+            <img src={cap} alt='project 4'/>
             <p>Random qutote Machine.</p>
             <button className='CV test' style={{height: "40px"}} onClick={()=>{setProj4(!proj4); }}>See More</button>
           </div>
