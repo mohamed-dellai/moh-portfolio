@@ -2,6 +2,7 @@ import React from 'react'
 import drumMachine from './drumMachine.png'
 import calc from './calc.png'
 import quote from './quote.png';
+import cap from './cap.png';
 import { useState } from 'react';
 import {animated,useTransition} from 'react-spring';
 export function Projects() {
@@ -60,7 +61,7 @@ const onclick1=
 const onclick4= 
     
 <div className='sub-section'>
-<img src={calc} alt='test'></img>
+<img src={cap} alt='test'></img>
 <h3>Messenger App</h3>
 <p>Created using reactJs, CSS, and Js, you may login with testing for your name and test123 for your password, messages are kept in local storage, and user information is saved in another file.</p>
 <button onClick={()=>{document.getElementById("gestionnaire").click()}}>Visit</button>
@@ -118,7 +119,7 @@ const onclick3=
             <button className='CV test' style={{height: "40px"}} onClick={()=>{setProj3(!proj3); }}>See More</button>
           </div>
           <div className="photos">
-            <img src={quote} alt='project 3'/>
+            <img src={quote} alt='project 4'/>
             <p>Random qutote Machine.</p>
             <button className='CV test' style={{height: "40px"}} onClick={()=>{setProj4(!proj4); }}>See More</button>
           </div>
