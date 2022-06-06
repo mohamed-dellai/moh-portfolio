@@ -324,12 +324,13 @@ h3{
 }
 .photos{
   background-color:  #ebebeb; 
-  width: 30%;
+  width: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   height: 310px;
+  overflow: hidden;
 }
 .test{
   display: flex;
@@ -340,7 +341,7 @@ h3{
 .photos img{
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  
   transition: all 300ms linear;
   aspect-ratio: 16/9 ;
 }
