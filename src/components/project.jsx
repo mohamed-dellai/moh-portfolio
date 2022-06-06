@@ -53,7 +53,7 @@ const onclick1=
     <div className='sub-section'>
     <img src={calc} alt='test'></img>
     <h3>Messenger App</h3>
-    <p>Created using reactJs, CSS, and Js, you may login with testing for your name and test123 for your password, messages are kept in local storage, and user information is saved in another file.</p>
+    <p>Created using reactJs, CSS, and Js, you may login with testing for your name and test for your password or Mohamed Dellai , test123, messages are kept in local storage, and user information is saved in another file.</p>
     <button onClick={()=>{document.getElementById("messenger").click()}}>Visit</button>
     <button onClick={()=>{setProj(!proj); }}>Close</button>
     </div>
