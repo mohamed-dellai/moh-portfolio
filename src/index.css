@@ -611,7 +611,7 @@ footer button{
   .link{
     font-size: 1.2rem;
   }
-  .cv{
+  .CV{
     width: 140px;
   }
   .hire{
@@ -637,5 +637,8 @@ footer button{
   #fixed a{
     margin: auto;
     width: fit-content;
+  }
+  .skill h4{
+    font-size: 0.9em;
   }
 }
