@@ -495,7 +495,7 @@ footer button{
   
 }
 
-/*media Querys---------------------------*/
+
 
 @media (max-width:960px){
   .new h3{
@@ -604,3 +604,38 @@ footer button{
   background-color: black;
 }
 
+@media only screen and (max-width: 500px) {
+  #welcome-section h1{
+    font-size: 2rem;
+  }
+  .link{
+    font-size: 1.2rem;
+  }
+  .cv{
+    width: 100%;
+  }
+  .hire{
+    width: 100%
+  }
+  .head h1{
+    font-size: 1.5rem
+  }
+  .projects h1{
+    font-size: 1.5rem;
+  }
+  footer button{
+    margin: auto;
+    width: 90%;
+  }
+  footer h1{
+    font-size: 1.5rem;
+    margin: auto;
+  }
+  form{
+    width: 90%;
+  }
+  #fixed a{
+    margin: auto;
+    width: fit-content;
+  }
+}
