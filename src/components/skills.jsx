@@ -15,13 +15,13 @@ export function Skills() {
          <div className='profile-skills'>
             <div className='profile'>
              <h3>PROFILE</h3>
-             <p> I'm Mohamed Dellai, a computer science student and web developer, 20 years old, and motivated to be the finest of the best. 😉.</p>
+             <p> I'm Mohamed Dellai, a computer science student and web developer, 21 years old, and motivated to be the finest of the best. 😉.</p>
              <h3>FULLNAME:</h3>
              <p>Mohamed Dellai</p>
              <h3>BIRTH DATE:</h3>
              <p>June 07,2002</p>
              <h3>JOB:</h3>
-             <p>Front End Devolopper(for now)</p>
+             <p>Full Stack Web & mobile developper</p>
              <h3>WEBSITE:</h3>
              <p>moh-portfolio.netlify.app</p>
              <h3>EMAIL:</h3>
@@ -29,30 +29,30 @@ export function Skills() {
             </div>
             <div className='skill'>
               <h3>SKILLS</h3>
-              <p>I'm familiar with react, CSS, and javascript. Check out my projects to see how I applied my knowledge. </p>
-              <h4>HTML5</h4>
+              <p>I'm familiar with Reactjs , CSS, js , nodejs and mysql. Check out my projects to see how I applied my knowledge. </p>
+              <h4>HTML,CSS,JS</h4>
               <div className="progress">
                  <div className="progress-bar" role="progressbar" style={{width: '80%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">80%</div>
                </div>
-               <h4>JS</h4>
+               <h4>MYSQL</h4>
                <div className="progress">
                  <div className="progress-bar" role="progressbar" style={{width: '80%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">80%</div>
                </div>
-               <h4>CSS</h4>
+               <h4>ReactJS & ReactNative</h4>
+               <div className="progress">
+                 <div className="progress-bar" role="progressbar" style={{width: '80%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">80%</div>
+               </div>
+               <h4>Nodejs</h4>
                <div className="progress">
                  <div className="progress-bar" role="progressbar" style={{width: '70%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">70%</div>
-               </div>
-               <h4>React Js</h4>
-               <div className="progress">
-                 <div className="progress-bar" role="progressbar" style={{width: '70%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">70%</div>
-               </div>
-               <h4>SQL</h4>
-               <div className="progress">
-                 <div className="progress-bar" role="progressbar" style={{width: '70%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">65%</div>
                </div>
                <h4>Bootstrap 4</h4>
                <div className="progress">
-                 <div className="progress-bar" role="progressbar" style={{width: '65%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">50%</div>
+                 <div className="progress-bar" role="progressbar" style={{width: '50%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">50%</div>
+               </div>
+               <h4>Java for android mobile dev</h4>
+               <div className="progress">
+                 <div className="progress-bar" role="progressbar" style={{width: '50%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">50%</div>
                </div>
             </div>
          </div>
