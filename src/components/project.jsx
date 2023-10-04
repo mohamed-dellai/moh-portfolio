@@ -90,7 +90,7 @@ const onclick5=
 <div className='sub-section'>
 <img src={social} alt='test' style={{maxHeight:"200px"}}></img>
 <h3>Social media app</h3>
-<p>"Full stack social network .</p>
+<p>"Full stack social network application comprising React.js for the user interface, Node.js with Express.js for the server-side, and MySQL for data management. This application offers a set of features, including the ability to create accounts and log in, post messages, comment, send real-time messages, customize account settings, and like posts.</p>
 <button onClick={()=>{document.getElementById("social").click()}}>Visit</button>
 <button onClick={()=>{setProj5(!proj5); }}>Close</button>
 </div>
@@ -105,7 +105,7 @@ const onclick5=
       )} 
       {transition4((style,item)=> item ? <animated.div className='section' style={style}>{onclick4}</animated.div> : ''
       )} 
-      {transition5((style,item)=> item ? <animated.div className='social' style={style}>{onclick5}</animated.div> : ''
+      {transition5((style,item)=> item ? <animated.div className='section' style={style}>{onclick5}</animated.div> : ''
       )} 
 
 
