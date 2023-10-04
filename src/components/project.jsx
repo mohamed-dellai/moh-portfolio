@@ -88,9 +88,9 @@ const onclick3=
 const onclick5=
     
 <div className='sub-section'>
-<img src={social} alt='test'></img>
+<img src={social} alt='test' style={{maxHeight:"200px"}}></img>
 <h3>Social media app</h3>
-<p>"Full stack social network application comprising React.js for the user interface, Node.js with Express.js for the server-side, and MySQL for data management. This application offers a set of features, including the ability to create accounts and log in, post messages, comment, send real-time messages, customize account settings, and like posts.</p>
+<p>"Full stack social network .</p>
 <button onClick={()=>{document.getElementById("social").click()}}>Visit</button>
 <button onClick={()=>{setProj5(!proj5); }}>Close</button>
 </div>
@@ -113,7 +113,7 @@ const onclick5=
              <a id='drum' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://drum-machine-1.netlify.app/">a</a>
              <a id='messenger' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://stoic-poitras-1977c9.netlify.app/">a</a>
              <a id='gestionnaire' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://dazzling-cuchufli-75e184.netlify.app/">a</a>
-             <a id='social' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://dazzling-cuchufli-75e184.netlify.app/">a</a>
+             <a id='social' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://app.netlify.com/sites/socialmediaapp-reactjs/overview">a</a>
 
 
 
