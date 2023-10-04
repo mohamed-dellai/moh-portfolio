@@ -3,6 +3,7 @@ import drumMachine from './drumMachine.png'
 import calc from './calc.png'
 import quote from './quote.png';
 import cap from './cap.PNG';
+import social from './social.PNG';
 import { useState } from 'react';
 import {animated,useTransition} from 'react-spring';
 export function Projects() {
@@ -87,9 +88,9 @@ const onclick3=
 const onclick5=
     
 <div className='sub-section'>
-<img src={quote} alt='test'></img>
-<h3>Ranndom quote machine</h3>
-<p>ReactJs, Bootstrap, and CSS were used to create this page. made to learn how to make various  animations using the react-spring library</p>
+<img src={social} alt='test'></img>
+<h3>Social media app</h3>
+<p>"Full stack social network application comprising React.js for the user interface, Node.js with Express.js for the server-side, and MySQL for data management. This application offers a set of features, including the ability to create accounts and log in, post messages, comment, send real-time messages, customize account settings, and like posts.</p>
 <button onClick={()=>{document.getElementById("social").click()}}>Visit</button>
 <button onClick={()=>{setProj5(!proj5); }}>Close</button>
 </div>
@@ -120,7 +121,7 @@ const onclick5=
             <h1>Check Out Some of My Works.</h1>
         <div className='projects2'>
         <div className="photos">
-            <img src={quote} alt='project 5'/>
+            <img src={social} alt='project 5'/>
             <p>Social media app.</p>
             <button className='CV test' style={{height: "40px"}} onClick={()=>{setProj5(!proj5); }}>See More</button>
           </div>
