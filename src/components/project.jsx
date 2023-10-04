@@ -12,8 +12,14 @@ export function Projects() {
     const [proj2,setProj2]=useState(()=>false);
     const [proj3,setProj3]=useState(()=>false);
     const [proj4,setProj4]=useState(()=>false);
-    
+    const [proj5,setProj5]=useState(()=>false);
     const transition = useTransition(proj, {
+        from:{top:x , opacity: 0 , left: -1000},
+        enter:{top:x , opacity: 1 , left: 0},
+        leave:{top:x , opacity: 0 , left: -1000},
+        config:{duration:500},
+      });
+      const transition5 = useTransition(proj2, {
         from:{top:x , opacity: 0 , left: -1000},
         enter:{top:x , opacity: 1 , left: 0},
         leave:{top:x , opacity: 0 , left: -1000},
@@ -78,7 +84,15 @@ const onclick3=
     <button onClick={()=>{document.getElementById("random").click()}}>Visit</button>
     <button onClick={()=>{setProj3(!proj3); }}>Close</button>
     </div>
-
+const onclick5=
+    
+<div className='sub-section'>
+<img src={quote} alt='test'></img>
+<h3>Ranndom quote machine</h3>
+<p>ReactJs, Bootstrap, and CSS were used to create this page. made to learn how to make various  animations using the react-spring library</p>
+<button onClick={()=>{document.getElementById("social").click()}}>Visit</button>
+<button onClick={()=>{setProj5(!proj5); }}>Close</button>
+</div>
 
     return (
         <div className='projects' id='work'>
@@ -90,19 +104,26 @@ const onclick3=
       )} 
       {transition4((style,item)=> item ? <animated.div className='section' style={style}>{onclick4}</animated.div> : ''
       )} 
-
+      {transition5((style,item)=> item ? <animated.div className='social' style={style}>{onclick5}</animated.div> : ''
+      )} 
 
 
              <a id='random' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://randomquotemachine123.netlify.app/">a</a>
              <a id='drum' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://drum-machine-1.netlify.app/">a</a>
              <a id='messenger' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://stoic-poitras-1977c9.netlify.app/">a</a>
              <a id='gestionnaire' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://dazzling-cuchufli-75e184.netlify.app/">a</a>
+             <a id='social' rel='noreferrer' target='_blank' style={{position: 'absolute' , opacity : '0'}} href="https://dazzling-cuchufli-75e184.netlify.app/">a</a>
 
 
 
             <h2>Projects</h2>
             <h1>Check Out Some of My Works.</h1>
         <div className='projects2'>
+        <div className="photos">
+            <img src={quote} alt='project 5'/>
+            <p>Social media app.</p>
+            <button className='CV test' style={{height: "40px"}} onClick={()=>{setProj5(!proj5); }}>See More</button>
+          </div>
           <div className="photos">
               <img src={calc} alt='project 1'/>
             <p>Messenger App .</p>
