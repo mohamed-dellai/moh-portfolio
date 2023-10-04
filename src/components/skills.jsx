@@ -38,7 +38,7 @@ export function Skills() {
                <div className="progress">
                  <div className="progress-bar" role="progressbar" style={{width: '80%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">80%</div>
                </div>
-               <h4>ReactJS & ReactNative</h4>
+               <h4>ReactJS</h4>
                <div className="progress">
                  <div className="progress-bar" role="progressbar" style={{width: '80%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">80%</div>
                </div>
@@ -46,11 +46,11 @@ export function Skills() {
                <div className="progress">
                  <div className="progress-bar" role="progressbar" style={{width: '70%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">70%</div>
                </div>
-               <h4>Bootstrap 4</h4>
+               <h4>Spring boot</h4>
                <div className="progress">
                  <div className="progress-bar" role="progressbar" style={{width: '50%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">50%</div>
                </div>
-               <h4>Java for android mobile dev</h4>
+               <h4>Java (android dev)</h4>
                <div className="progress">
                  <div className="progress-bar" role="progressbar" style={{width: '50%'}} ariaValuenow="25" ariaValuemin="0" ariaValuemax="100">50%</div>
                </div>
