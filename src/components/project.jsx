@@ -3,7 +3,7 @@ import drumMachine from './drumMachine.png'
 import calc from './calc.png'
 import quote from './quote.png';
 import cap from './cap.PNG';
-import social from './social.PNG';
+import social from './social.png';
 import { useState } from 'react';
 import {animated,useTransition} from 'react-spring';
 export function Projects() {
@@ -20,7 +20,7 @@ export function Projects() {
         leave:{top:x , opacity: 0 , left: -1000},
         config:{duration:500},
       });
-      const transition5 = useTransition(proj2, {
+      const transition5 = useTransition(proj5, {
         from:{top:x , opacity: 0 , left: -1000},
         enter:{top:x , opacity: 1 , left: 0},
         leave:{top:x , opacity: 0 , left: -1000},
